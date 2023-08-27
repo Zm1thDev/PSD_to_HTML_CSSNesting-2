@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;700&family=Roboto:wght@400;700&display=swap');
 
 *{
     margin: 0;
@@ -14,8 +14,6 @@ header{
     background: url('/image/bn-header.jpg');
     background-position: center;
     background-size: cover;
-
-    /* ---------- logo-navbar ---------- */
     & .navbar{
         display: flex;
         justify-content: space-between;
@@ -46,7 +44,6 @@ header{
             }
         }
     }
-    /* ---------- content-header ---------- */
     & .content-hd{
         text-align: center;
         & .wct{
@@ -119,6 +116,9 @@ header{
             font-size: 35px;
             text-transform: uppercase;
             margin-top: 46px;
+            & img{
+                margin-bottom: -5px;
+            }
         }
         & p{
             font-size: 17px;
@@ -147,6 +147,471 @@ header{
     & .ab-img{
         & img{
             width: 100%;
+        }
+    }
+}
+
+/* ---------- all game ---------- */
+.all-game{
+    margin-top: 135px;
+    & h1{
+        text-align: center;
+        font-size: 35px;
+        text-transform: uppercase;
+        & img{
+            margin-bottom: -5px;
+        }
+    }
+    & p{
+        font-size: 17px;
+        text-align: center;
+        margin-top: 15px;
+    }
+    & .group-ag{
+        display: flex;
+        justify-content: center;
+        margin-top: 65px;
+        & .ag{
+            text-align: center;
+            margin-right: 21px;
+            position: relative;
+            transition: .5s;
+            & img{
+                width: 100%;
+                height: 100%;
+            }
+            &:nth-child(1),&:nth-child(2),&:nth-child(3),&:nth-child(4){
+                width: 313px;
+                height: 580px;
+                & .ag-info{
+                    color: white;
+                    position: absolute;
+                    bottom: 0;
+                    right: 0;
+                    left: 0;
+                    & span{
+                        font-family: 'Poppins', sans-serif;
+                        font-size: 25px;
+                        padding: 10px 16px;
+                        border: 2px solid #bf3d42;
+                        background-color: black;
+                        border-radius: 100%;
+                    }
+                    & .game{
+                        font-family: 'Poppins', sans-serif;
+                        font-size: 25px;;
+                        text-transform: uppercase;
+                    }
+                    & .ag-dt{
+                        font-size: 14px;
+                        line-height: 1.5em;
+                        margin-bottom: 45px;
+                    }
+                }
+            }
+            &:nth-child(2){
+                width: 312px;
+                height: 485px;
+                & .ag-info{
+                    & span{
+                        padding: 10px 14px;
+                    }
+                }
+            }
+            &:nth-child(3){
+                width: 312px;
+                height: 400px;
+                & .ag-info{
+                    & span{
+                        padding: 10px 14px;
+                    }
+                    & .ag-dt{
+                        margin: 10px 0 20px;
+                    }
+                }
+            }
+            &:nth-child(4){
+                width: 312px;
+                height: 322px;
+                margin-right: 0;
+                & .ag-info{
+                    & span{
+                        padding: 10px 14px;
+                    }
+                    & .ag-dt{
+                       margin: 5px 0 15px;
+                    }
+                }
+            }
+            &:hover{
+                transform: scale(1.05);
+            }
+            & .btn-pn{
+                width: 182px;
+                height: 58px;
+                border-radius: 50px;
+                font-size: 17px;
+                text-transform: capitalize;
+                background-color: black;
+                color: white;
+                border: 3px solid #bf3d42;
+                margin-top: 20px;
+                transition: .5s;
+                cursor: pointer;
+                &:hover{
+                    background-color: #bf3d42;
+                }
+            }
+        }
+    }
+}
+
+/* ---------- how to play ---------- */
+.how-to-paly{
+    width: 100%;
+    height: 700px;
+    background-color: #121212;
+    margin-top: 219px;
+    color: white;
+    & .htp{
+        text-align: center;
+        & h1{
+            font-size: 35px;
+            text-transform: uppercase;
+            & img{
+                margin: 98px 5px -5px 0;
+            }
+        }
+        & p{
+            font-size: 17px;
+            line-height: 1.4em;
+            margin-top: 35px;
+        }
+        & .htp-group{
+            display: flex;
+            justify-content: center;
+            & .htp-info{
+                margin: 80px 60px 0 0;
+                &:last-child{
+                    margin-right: 0;
+                }
+                & img{
+                    padding: 40px 70px;
+                    border: 1px solid white;
+                    border-radius: 10px;
+                    transition: .5s;
+                    &:hover{
+                        transform: scale(1.1);
+                    }
+                }
+                & p{
+                    font-size: 20px;
+                    margin-top: 20px;
+                }
+            }
+        }
+        & .btn-rm{
+            width: 182px;
+            height: 58px;
+            background-color: #bf3d42;
+            color: white;
+            font-size: 17px;
+            text-transform: capitalize;
+            border-radius: 50px;
+            border: none;
+            transition: .5s;
+            margin-top: 80px;
+            cursor: pointer;
+            &:hover{
+                background: transparent;
+                border: 1px solid white;
+                color: white;
+                transform: translateY(-10px);
+            }
+        }
+    }
+}
+
+/* ---------- our casino price ---------- */
+.our-casino-price{
+    margin-top: 168px;
+    text-align: center;
+    & h1{
+        font-size: 35px;
+        text-transform: capitalize;
+        & img{
+            margin: 0 5px -5px 0;
+        }
+    }
+    & p{
+        margin-top: 20px;
+        line-height: 1.4em;
+        font-size: 17px;
+    }
+    .group-ocp{
+        display: flex;
+        justify-content: center;
+        margin-top: 65px;
+        & .ocp-con{
+            width: 388px;
+            height: 322px;
+            margin-right: 25px;
+            &:last-child{
+                margin-right: 0;
+            }
+            & .ocp-info{
+                width: 388px;
+                height: 230px;
+                border: 1px solid gray;
+                border-radius: 20px;
+                transition: .5s;
+                &:hover{
+                    transform: scale(1.05);
+                }
+                & .ocp-head{
+                    font-family: 'Poppins', sans-serif;
+                    font-size: 20px;
+                    font-weight: bold;
+                    text-transform: capitalize;
+                    color: #bf3d42;
+                }
+                & h2{
+                    font-family: 'Poppins', sans-serif;
+                    font-size: 30px;
+                    color: #bf3d42;
+                    & strong{
+                        font-family: 'Poppins', sans-serif;
+                        font-size: 45px;
+                        color: #505050;
+                    }
+                    & span{
+                        font-family: 'Poppins', sans-serif;
+                        font-size: 20px;
+                        color: #505050;
+                    }
+                }
+                & .ocp-dt{
+                    font-size: 17px;
+                    margin-top: 13px;
+                }
+            }
+            & .btn-bn{
+                width: 160px;
+                height: 52px;
+                background-color: #bf3d42;
+                color: white;
+                font-size: 17px;
+                text-transform: capitalize;
+                border: 2px solid #bf3d42;
+                border-radius: 50px;
+                transition: .5s;
+                margin-top: 35px;
+                cursor: pointer;
+                &:hover{
+                    background: transparent;
+                    color: #bf3d42;
+                }
+            }
+        }
+    }
+}
+/* ---------- customer ---------- */
+.customer{
+    margin-top: 180px;
+    text-align: center;
+    & h1{
+        font-size: 35px;
+        text-transform: capitalize;
+        & img{
+            margin: 0 20px -5px 0;
+        }
+    }
+    & .group-ctm{
+        max-width: 1170px;
+        margin: 70px auto 0;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        & i{
+            padding: 15px 20px;
+            background-color: #bf3d42;
+            border: 1px solid #bf3d42;
+            color: white;
+            border-radius: 100%;
+            transition: .5s;
+            cursor: pointer;
+            &:hover{
+                border: 1px solid #bf3d42;
+                color: #bf3d42;
+                background: transparent;
+            }
+        }
+    }
+    & .ctm-info{
+        margin-top: 20px;
+        & strong{
+            font-size: 19px;
+            text-transform: capitalize;
+        }
+        & i{
+            margin: 0 15px;
+            font-size: 30px;
+            & span{
+                font-size: 17px;
+            }
+        }
+        & .fa-quote-right{
+            transform: rotateX(180deg);
+        }
+        & p{
+            margin-top: 8px;
+            font-size: 17px;
+            line-height: 1.5em;
+        }
+    }
+}
+
+/* ---------- get in touch ---------- */
+.get-in-touch{
+    margin-top: 145px;
+    & h1{
+        text-align: center;
+        font-size: 35px;
+        text-transform: capitalize;
+        & img{
+            margin: 0 5px -5px 0;
+        }
+    }
+    & .group-git{
+        max-width: 1170px;
+        height: 500px;
+        margin: 74px auto -80px;
+        display: flex;
+        justify-content: space-between;
+        background-color: #ffffff;
+        box-shadow: 2px 2px 12px 0px rgba(0, 0, 0, 0.1);
+        border-radius: 20px;
+        position: relative;
+        & .git-form{
+            margin: 35px 0 0 31px;
+            & .input,& .message,& .select{
+                width: 575px;
+                height: 42px;
+                margin-bottom: 18px;
+                font-size: 15px;
+                outline: none;
+                padding: 0 15px;
+                border: 1px solid black;
+                appearance: none;
+            }
+            & .group-select{
+                position: relative;
+                & .drop-down{
+                    position: absolute;
+                    right: 22px;
+                    top: 12px;
+                }
+            }
+            & .message{
+                width: 575px;
+                height: 108px;
+            }
+            & .btn-send{
+                margin-top: 10px;
+                width: 160px;
+                height: 52px;
+                background-color: #bf3d42;
+                color: white;
+                font-size: 17px;
+                text-transform: capitalize;
+                border: 2px solid #bf3d42;
+                border-radius: 50px;
+                transition: .5s;
+                cursor: pointer;
+                &:hover{
+                    background: transparent;
+                    color: #bf3d42;
+                }
+            }
+        }
+        & .git-img{
+            margin: 35px 34px 0 0;
+        }
+    }
+    /* ---------- footer ---------- */
+    & .footer{
+        text-align: center;
+        width: 100%;
+        height: 480px;
+        background-color: #252525;
+        position: absolute;
+        z-index: -1;
+        & .email{
+            font-family: 'Poppins', sans-serif;
+            margin-top: 170px;
+            width: 618px;
+            height: 29px;
+            border: none;
+            background: transparent;
+            border-bottom: 1px solid white;
+            color: white;
+            outline: none;
+            font-size: 17px;
+            padding-right: 100px;
+        }
+        & .btn-sub{
+            font-family: 'Poppins', sans-serif;
+            background: transparent;
+            color: white;
+            border: none;
+            margin-left: -100px;
+            font-size: 17px;
+        }
+        & .group-icon-ft{
+            margin-top: 42px;
+            & i{
+                font-size: 17px;
+                padding: 6px 8px;
+                background-color: white;
+                border-radius: 100%;
+                transition: .5s;
+                &:first-child{
+                    padding: 6px 10px;
+                }
+                &:hover{
+                    transform: translateY(-5px);
+                }
+            }
+        }
+        & .group-info-ft{
+            max-width: 904px;
+            margin: 25px auto 0;
+            display: flex;
+            justify-content: space-between;
+            & .info-ft{
+                &:nth-child(2){
+                    margin-left: -70px;
+                }
+                & i{
+                    color: white;
+                    font-size: 25px;
+                    margin-right: 20px;
+                }
+                & span{
+                    font-family: 'Poppins', sans-serif;
+                    color: white;
+                }
+            }
+        }
+        & .border-ft{
+            margin: 42px auto;
+            width: 222px;
+            height: 1px;
+            background-color: white;
+        }
+        & p{
+            font-size: 17px;
+            color: white;
         }
     }
 }
