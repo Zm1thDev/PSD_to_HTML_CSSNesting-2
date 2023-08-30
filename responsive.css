@@ -1,0 +1,646 @@
+/* ---------- 1350px ---------- */
+@media screen and (max-width:1350px) {
+    /* ---------- about ---------- */
+    .about{
+        max-width: 1150px;
+        & .ab-info{
+            & p{
+                font-size: 16px;
+            }
+        }
+    }
+    /* ---------- all game ---------- */
+    .all-game{
+        & .group-ag{
+            & .ag{
+                & img{
+                    width: 95%;
+                }
+            }
+        }
+    }
+    /* ---------- our casino price ---------- */
+    .our-casino-price{
+        & .group-ocp{
+            justify-content: space-between;
+            margin: 65px 30px 0 30px;
+            .ocp-con{
+                margin-right: 15px;
+                & .ocp-info{
+                    width: 368px;
+                    height: 230px;
+                }
+            }
+        }
+    }
+    /* ---------- customer ---------- */
+    .customer{
+        & .group-ctm{
+            justify-content: space-around;
+        }
+    }
+}
+
+/* ---------- 1200px  desktop ---------- */
+@media screen and (max-width:1200px) {
+    /* --------- header ---------- */
+    header{
+        & .content-hd{
+            & .info{
+                margin: 25px 20px 0;
+            }
+        }
+    }
+    /* ---------- about ---------- */
+    .about{
+        max-width: 950px;
+        & .ab-info{
+            & p{
+                font-size: 15px;
+            }
+        }
+    }
+    /* ---------- all game ---------- */
+    .all-game{
+        & P{
+            margin: 25px 20px 0;
+        }
+        & .group-ag{
+            & .ag{
+                & img{
+                    width: 95%;
+                    height: 90%;
+                }
+                & .ag-info{
+                    margin-bottom: 45px;
+                }
+            }
+        }
+    }
+    /* ---------- how to play ---------- */
+    .how-to-paly{
+        & .htp{
+            & p{
+                margin: 35px 20px 0;
+            }
+        }
+    }
+    /* ---------- our casino price ---------- */
+    .our-casino-price{
+        & p{
+            margin: 20px 20px 0;
+        }
+        & .group-ocp{
+            justify-content: space-around;
+            .ocp-con{
+                margin-right: 10px ;
+                & .ocp-info{
+                    width: 328px;
+                    height: 230px;
+                }
+            }
+        }
+    }
+    /* ---------- customer ---------- */
+    .customer{
+        & .ctm-info{
+            & p{
+                margin: 8px 20px 0;
+            }
+        }
+    }
+    /* ---------- get in touch ---------- */
+    .get-in-touch{
+        & .group-git{
+            max-width: 990px;
+            & .git-form{
+                & .input,& .message,& .select{
+                    width: 500px;
+                }
+            }
+            & .git-img{
+                margin-top: 50px;
+                & img{
+                    width: 400px;
+                }
+            }
+        }
+    }
+    
+}
+/* ---------- 1024px laptops ---------- */
+@media screen and (max-width:1024px) {
+    /* ---------- about ---------- */
+    .about{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        & .ab-info{
+            text-align: center;
+            & h1{
+                text-align: center;
+            }
+            & p{
+                text-align: start;
+                font-size: 17px;
+            }
+        }
+        & .ab-img{
+            margin-top: 50px;
+        }
+    }
+    /* ---------- all game ---------- */
+    .all-game{
+        & .group-ag{
+            display: grid;
+            grid-template-columns: auto auto;
+            row-gap: 150px;
+            & .ag{
+                & img{
+                    width: 100%;
+                    height: 100%;
+                }
+                & .ag-info{
+                    margin-bottom: 0;
+                }
+            }
+        }
+    }
+    /* ---------- how to play ---------- */
+    .how-to-paly{
+        height: 1000px;
+        & .htp{
+            & .htp-group{
+                display: grid;
+                grid-template-columns: auto auto;
+                column-gap: 100px;
+                & .htp-info{
+                    margin-right: 0;
+                }
+            }
+        }
+    }
+    /* ---------- our casino price ---------- */
+    .our-casino-price{
+        & .group-ocp{
+            display: grid;
+            grid-template-columns: auto auto;
+            row-gap: 30px;
+            .ocp-con{
+                margin-right: 0;
+                & .ocp-info{
+                    margin: 0 auto;
+                    width: 330px;
+                }
+            }
+        }
+    }
+    /* ---------- get in touch ---------- */
+    .get-in-touch{
+        & .group-git{
+            max-width: 700px;
+            height: 400px;
+            & .git-form{
+                & .input,& .message,& .select{
+                    width: 300px;
+                    height: 37px;
+                }
+            }
+            & .git-img{
+                & img{
+                    width: 310px;
+                }
+            }
+        }
+        & .footer{
+            & .group-info-ft{
+                justify-content: space-around;
+                & .info-ft{
+                    &:nth-child(2){
+                        margin-left: -40px;
+                    }
+                }
+            }
+        }
+    }
+}
+/* ---------- 768px ipad tablets ---------- */
+@media screen and (max-width:768px) {
+    /* ---------- header ---------- */
+    header{
+        & .navbar{
+            & .logo{
+                margin-left: 30px;
+            }
+            & .group-bar{
+                margin-right: 30px;
+            }
+        }
+        & .content-hd{
+            & .wct{
+                font-size: 28px;
+            }
+            & h1{
+                font-size: 59px;
+            }
+            & .info{
+                font-size: 15px;
+            }
+            & .btn-hd{
+                width: 180px;
+                font-size: 15px;
+            }
+            & .group-dot{
+                & .dot{
+                    width: 17px;
+                    height: 17px;
+                }
+            }
+        }
+    }
+    /* ---------- about ---------- */
+    .about{
+        & .ab-info{
+            margin: 0 30px;
+            text-align: center;
+            & h1{
+                font-size: 30px;
+            }
+            & p{
+                font-size: 15px;
+            }
+            & .btn-rm{
+                width: 140px;
+                height: 50px;
+                font-size: 15px;
+            }
+        }
+        & .ab-img{
+            margin-top: 50px;
+            & img{
+                width: 450px;
+            }
+        }
+    }
+    /* ---------- all game ---------- */
+    .all-game{
+        & h1{
+            font-size: 30px;
+        }
+        & p{
+            font-size: 15px;
+        }
+        & .group-ag{
+            display: grid;
+            grid-template-columns: auto;
+            & .ag{
+                margin: 0 auto;
+                & .btn-pn{
+                    width: 140px;
+                    height: 50px;
+                    font-size: 15px;
+                }
+            }
+        }
+    }
+    /* ---------- how to play ---------- */
+    .how-to-paly{
+        & .htp{
+            & h1{
+                font-size: 30px;
+            }
+            & p{
+                font-size: 15px;
+            }
+            & .htp-group{
+                column-gap: 25px;
+            }
+            & .btn-rm{
+                width: 140px;
+                height: 50px;
+                font-size: 15px;
+            }
+        }
+    }
+    /* ---------- our casino price ---------- */
+    .our-casino-price{
+        & h1{
+            font-size: 30px;
+        }
+        & p{
+            font-size: 15px;
+        }
+        & .group-ocp{
+            display: grid;
+            grid-template-columns: auto ;
+            .ocp-con{
+                & .ocp-info{
+                    width: 388px;
+                }
+                & .btn-bn{
+                    width: 140px;
+                    height: 50px;
+                    font-size: 15px;
+                }
+            }
+        }
+    }
+    /* ---------- customer ---------- */
+    .customer{
+        & h1{
+            font-size: 30px;
+        }
+        & .group-ctm{
+            & img{
+                width: 130px;
+            }
+            & i{
+                padding: 10px 15px;
+            }
+        }
+        & .ctm-info{
+            & p{
+                font-size: 15px;
+            }
+        }
+    }
+    /* ---------- get in touch ---------- */
+    .get-in-touch{
+        & h1{
+            font-size: 30px;
+        }
+        & .group-git{
+            display: grid;
+            grid-template-columns: 1fr;
+            max-width: 400px;
+            height: 700px;
+            & .git-form{
+                margin: 30px auto 0;
+                text-align: center;
+                & .input,& .message,& .select{
+                    width: 350px;
+                    height: 40px;
+                }
+                & .btn-send{
+                    width: 140px;
+                    height: 45px;
+                    font-size: 15px;
+                }
+            }
+            & .git-img{
+                margin:0 auto;
+                & img{
+                    width: 350px;
+                }
+            }
+        }
+        & .footer{
+            & .email{
+                width: 430px;
+                font-size: 15px;
+            }
+            & .btn-sub{
+                font-size: 15px;
+            }
+            & .group-info-ft{
+                & .info-ft{
+                    &:nth-child(2){
+                        margin-left: -20px;
+                    }
+                    & i{
+                        font-size: 20px;
+                        margin-right: 5px;
+                    }
+                    & span{
+                        font-size: 12px;
+                    }
+                }
+            }
+            & p{
+                font-size: 15px;
+            }
+        }
+    }
+}
+/* ---------- 480px  mobile ---------- */
+@media screen and (max-width:480px) {
+    /* ---------- header ---------- */
+    header{
+        & .navbar{
+            & .logo{
+                margin-left: 20px;
+            }
+            & .group-bar{
+                margin-right: 20px;
+            }
+        }
+        & .content-hd{
+            & .wct{
+                font-size: 23px;
+            }
+            & h1{
+                font-size: 42px;
+            }
+            & .info{
+                font-size: 13px;
+            }
+            & .btn-hd{
+                width: 130px;
+                height: 45px;
+                font-size: 13px;
+            }
+            & .group-dot{
+                & .dot{
+                    width: 15px;
+                    height: 15px;
+                }
+            }
+        }
+    }
+    /* --------- about ---------- */
+    .about{
+        & .ab-info{
+            & h1{
+                font-size: 22px;
+                & img{
+                    width: 35px;
+                }
+            }
+            & p{
+                font-size: 13px;
+            }
+            & .btn-rm{
+                width: 120px;
+                height: 40px;
+                font-size: 13px;
+            }
+        }
+        & .ab-img{
+            & img{
+                width: 300px;
+            }
+        }
+    }
+    /* ---------- all game ---------- */
+    .all-game{
+        & h1{
+            font-size: 22px;
+            & img{
+                width: 35px;
+            }
+        }
+        & p{
+            font-size: 13px;
+        }
+        & .group-ag{
+            & .ag{
+                margin-top: -50px;
+                &:first-child{
+                    margin-top: 0;
+                }
+                & img{
+                    width: 90%;
+                    height: 90%;
+                }
+                & .ag-info{
+                    margin-bottom: 40px;
+                }
+                & .btn-pn{
+                    width: 120px;
+                    height: 40px;
+                    font-size: 13px;
+                }
+            }
+        }
+    }
+    /* ---------- how to play ---------- */
+    .how-to-paly{
+        height: 1400px;
+        & .htp{
+            & h1{
+                font-size: 22px;
+                & img{
+                    width: 35px;
+                }
+            }
+            & p{
+                font-size: 13px;
+            }
+            & .htp-group{
+                display: grid;
+                grid-template-columns: 1fr;
+                & .htp-info{
+                    margin-top: 50px;
+                }
+            }
+            & .btn-rm{
+                margin-top: 60px;
+                width: 120px;
+                height: 40px;
+                font-size: 13px;
+            }
+        }
+    }
+    /* ---------- our casino price ---------- */
+    .our-casino-price{
+        & h1{
+            font-size: 22px;
+            & img{
+                width: 35px;
+            }
+        }
+        & p{
+            font-size: 13px;
+        }
+        & .group-ocp{
+            .ocp-con{
+                & .ocp-info{
+                    width: 280px;
+                }
+                & .btn-bn{
+                    width: 120px;
+                    height: 40px;
+                    font-size: 13px;
+                }
+            }
+        }
+    }
+    /* ---------- customer ---------- */
+    .customer{
+        & h1{
+            font-size: 22px;
+            & img{
+                width: 35px;
+            }
+        }
+
+    }
+    /* ---------- get in touch ---------- */
+    .get-in-touch{
+        & h1{
+            font-size: 22px;
+            & img{
+                width: 35px;
+            }
+        }
+        & .group-git{
+            display: flex;
+            flex-direction: column;
+            max-width: 280px;
+            height: 550px;
+            & .git-form{
+                & .input,& .message,& .select{
+                    font-size: 13px;
+                    width: 220px;
+                    height: 30px;
+                }
+                & .btn-send{
+                    width: 120px;
+                    height: 35px;
+                    font-size: 13px;
+                }
+            }
+            & .git-img{
+                margin-bottom: 30px;
+                & img{
+                    width: 230px;
+                }
+            }
+        }
+        & .footer{
+            & .email{
+                width: 300px;
+                font-size: 13px;
+            }
+            & .btn-sub{
+                font-size: 13px;
+                margin-left: -75px;
+            }
+            & .group-icon-ft{
+                & i{
+                    font-size: 12px;
+                }
+            }
+            & .group-info-ft{
+                & .info-ft{
+                    &:nth-child(2){
+                        margin-left: 0;
+                    }
+                    & i{
+                        font-size: 13px;
+                        margin-right: 5px;
+                    }
+                    & span{
+                        font-size: 9px;
+                    }
+                }
+            }
+            & .border-ft{
+                width: 130px;
+            }
+            & p{
+                font-size: 12px;
+            }
+        }
+    }
+}
